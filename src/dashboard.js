@@ -1,10 +1,12 @@
 import React from "react";
-import Navbar from "./navbar";
+import TaskContainer from "./taskContainer";
 
 export default function Dashboard() {
     return(
   <div>
-    <Navbar username="bilal" />
+   <h1>TASKS ORGANIZERS</h1>
+    <hr/>
+    <TaskContainer/>
   </div>
   );
 }
